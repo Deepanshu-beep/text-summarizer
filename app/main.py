@@ -47,12 +47,10 @@ def readingTime(mytext):
 
 @app.route('/')
 def index():
-    #return render_template('index.html')
-    return ("<h1> Hello World</h1>")
+	return render_template('index.html')
 
 @app.route('/analyze',methods=['GET','POST'])
 def analyze():
-    """
 	start = time.time()
 	if request.method == 'POST':
 		rawtext = request.form['rawtext']
@@ -62,10 +60,7 @@ def analyze():
 		end = time.time()
 		final_time = end-start
 	return render_template('index.html',ctext=rawtext,final_summary=final_summary,final_time=final_time,final_reading_time=final_reading_time,summary_reading_time=summary_reading_time)
-	"""
-    return ("<h1> Hello World</h1>")
 
 @app.route('/about')
 def about():
-	# return render_template('index.html')
-	return ("<h1> Hello World</h1>")
+	return render_template('index.html')
