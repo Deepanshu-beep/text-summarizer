@@ -8,9 +8,8 @@ from nltk.tokenize import word_tokenize
 from string import punctuation
 from collections import Counter
 from heapq import nlargest
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('en_core_web_sm')
 app = Flask(__name__)
-run_with_ngrok(app)
 
 # Spacy Summarize
 def spacy_summarize(mytext):
