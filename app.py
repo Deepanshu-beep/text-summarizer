@@ -1,6 +1,5 @@
 from __future__ import unicode_literals
 from flask import Flask,render_template,url_for,request
-from flask_ngrok import run_with_ngrok
 import time
 import spacy
 import nltk
