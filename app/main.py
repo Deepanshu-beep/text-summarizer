@@ -116,5 +116,3 @@ def compare_summary():
 def about():
 	return render_template('index.html')
 
-if __name__ == '__main__':
-	app.run()
