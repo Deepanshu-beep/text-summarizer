@@ -65,6 +65,6 @@ def analyze():
 def about():
 	return render_template('index.html')
 """	
-@app.route('/'):
-    def home_view():
-        return  "<h1>Hellp World</h1>"
+@app.route('/')
+def home_view():
+    return  "<h1>Hellp World</h1>"
