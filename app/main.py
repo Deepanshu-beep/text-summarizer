@@ -84,9 +84,9 @@ def analyze():
 
 
 
-@app.route('/compare_summary')
-def compare_summary():
-	return render_template('compare_summary.html')
+# @app.route('/compare_summary')
+# def compare_summary():
+# 	return render_template('compare_summary.html')
 
 # @app.route('/comparer',methods=['GET','POST'])
 # def comparer():
