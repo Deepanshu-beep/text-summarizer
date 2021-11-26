@@ -10,7 +10,7 @@ from collections import Counter
 from heapq import nlargest
 nlp = spacy.load('en_core_web_sm')
 app = Flask(__name__)
-/**
+"""
 # Spacy Summarize
 def spacy_summarize(mytext):
     doc = nlp(mytext)
@@ -64,7 +64,7 @@ def analyze():
 @app.route('/about')
 def about():
 	return render_template('index.html')
-*/
+"""	
 @app.route('/'):
     def home_view():
         return  "<h1>Hellp World</h1>"
