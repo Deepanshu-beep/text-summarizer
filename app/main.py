@@ -3,6 +3,7 @@ from flask import Flask,render_template,url_for,request
 import time
 import spacy
 import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from string import punctuation
