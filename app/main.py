@@ -47,7 +47,8 @@ def readingTime(mytext):
 
 @app.route('/')
 def index():
-	return render_template('index.html')
+    #return render_template('index.html')
+    return ("<h1> Hello World</h1>")
 
 @app.route('/analyze',methods=['GET','POST'])
 def analyze():
